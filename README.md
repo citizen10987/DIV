@@ -1,14 +1,12 @@
-# DIV
-A blockchain-powered solution to enforce age compliance and prevent underage gambling while preserving privacy.
-
-
-Here’s a **GitHub README file** for the DIVGuard MVP project:
-
----
-
 # DIVGuard: Decentralized Age Verification for Gaming  
 
 DIVGuard is a **Minimal Viable Product (MVP)** designed to prevent underage gambling by leveraging **Aadhaar-based age verification** and **blockchain credentials**. This project ensures compliance with Indian regulations while prioritizing user privacy and security.  
+
+---
+
+## 🚀 **Live Demo**  
+Check out the live demo of DIVGuard:  
+👉 **[https://extraordinary-ganache-96763d.netlify.app/](https://extraordinary-ganache-96763d.netlify.app/)** 👈  
 
 ---
 
@@ -40,58 +38,3 @@ DIVGuard is a **Minimal Viable Product (MVP)** designed to prevent underage gamb
    ```bash  
    git clone https://github.com/yourusername/divguard.git  
    cd divguard  
-   ```  
-2. Install dependencies:  
-   ```bash  
-   npm install  
-   ```  
-3. Deploy the smart contract:  
-   - Open `AgeCredential.sol` in Remix IDE.  
-   - Compile and deploy to Polygon Mumbai Testnet.  
-   - Update the contract address in `src/config.js`.  
-
-### Running the Project  
-1. Start the mock Aadhaar API:  
-   ```bash  
-   cd backend  
-   npm start  
-   ```  
-2. Run the mobile wallet:  
-   ```bash  
-   cd mobile-wallet  
-   expo start  
-   ```  
-3. Launch the gambling demo:  
-   ```bash  
-   cd gambling-demo  
-   npm start  
-   ```  
-
----
-
-## Usage  
-1. Open the mobile wallet app.  
-2. Scan a mock Aadhaar QR code or enter a test ID.  
-3. If age ≥18, an NFT credential is issued.  
-4. Open the gambling demo and connect your wallet.  
-5. Access is granted if the NFT is verified.  
-
----
-
-## Contributing  
-Contributions are welcome! Open an issue or submit a PR.  
-
----
-
-## License  
-This project is licensed under the MIT License.  
-
----
-
-## Acknowledgments  
-- UIDAI for the Aadhaar sandbox.  
-- Polygon for the Mumbai Testnet.  
-- Figma for UI design tools.  
-
----
-
